@@ -6,10 +6,10 @@ Ready-to-use LaTeX templates for the Istituto Superiore di Sanità: a 16:9 beame
 
 ## Download
 
-Grab the latest release from the **[Releases](../../releases)** page:
+Download the zip you need straight from this repository:
 
-- **`latex_presentation_template_ISS.zip`** — the beamer deck. Unzip, then compile `presentation.tex` with `latexmk -pdf presentation.tex` (or `pdflatex`, run twice).
-- **`latex_poster_template_ISS.zip`** — the A0 poster. Same idea, compile `poster.tex`.
+- **[`latex_presentation_template_ISS.zip`](latex_presentation_template_ISS.zip)** — the beamer deck. Unzip, then compile `presentation.tex` with `latexmk -pdf presentation.tex` (or `pdflatex`, run twice).
+- **[`latex_poster_template_ISS.zip`](latex_poster_template_ISS.zip)** — the A0 poster. Same idea, compile `poster.tex`.
 
 Each zip is self-contained: the theme files, the colour palette (`isscolor.sty`), a demo bibliography, the logo assets, and the licence. Unzip either one into your own LaTeX project (or point `TEXINPUTS` at it) and start editing — see the comments at the top of `presentation.tex` / `poster.tex` for the available options (dual branding, footline colour, dark slides, and so on).
 
